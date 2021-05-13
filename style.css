@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+   content: "";
+    display: block;
+    clear: both;
+
+}
+.container{
+width: 99.5%;
+max-width: 100%;
+margin: auto;
+
+
+}
+/* header section */
+.header {
+    background: rgba(19, 163, 189, 0.527);
+    width: 100%;
+    padding: 7px 0px;
+}
+.logo{
+width: 30%;
+float: left;
+}
+
+.logo h3{
+    
+        font-size: 30px;
+        color: rgb(66 133 244);
+        padding-left: 46px;
+ 
+}
+
+.manu {
+    width: 60%;
+    float: right;
+}
+.manu ul{
+
+text-align: right;
+
+margin-right: 74px;
+
+margin-top: 6px;
+}
+.manu ul li{
+    display: inline-block;
+    
+    background: rgba(2, 105, 190, 0.596);
+    padding: 5px;
+}
+.manu ul li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    
+}
+.manu ul li:hover{
+    background-color: rgba(2, 105, 190, 0.897);
+    color: rgb(214, 233, 218);
+}
+
+/* baner section */
+
+.baner{
+    background: url(images.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    width: 100%;
+
+}
+
+.banertext{
+    text-align: center;
+
+}
+.banertext h4 {
+    /* text-align: center; */
+    background: rgba(0, 0, 1, .5);
+    display: inline-block;
+    padding: 6px 26px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+.banertext h2{
+    width: 260px;
+    margin: auto;
+    background: rgba(0, 0, 1, .5);
+    border-radius: 10px;
+    padding: 5px 25px;
+    color: white;
+
+}
+
+/* aboutsection */
+.about{
+    margin: 20px 0;
+
+
+}
+
+.aboutus{
+    padding: 30px 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.aboutitem{}
+.cards {
+    width: 29%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    border: .5px solid #0000003d;
+    margin: 1%;
+    box-sizing: border-box;
+}
+.cards h1 {
+    margin: 10px 0;
+}
+.cards p{}
+.icon {
+    width: 59px;
+    margin: auto;
+    font-size: 57px;
+    background: #83cedc;
+    border-radius: 13px 0;
+}
+
+
+/* blogsection */
+
+.blog{
+
+    margin: 30px 0;
+}
+
+.blogRight{
+    width: 69%;
+    float: left;
+}
+
+
+.blogs{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.blogs p{
+    font-size: 14px;
+}
+
+.blog-img{
+    width:25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+
+}
+.blog-img img{
+    width: 100%;
+
+}
+
+.blog-left{
+    width: 29%;
+    float: right;
+    margin-right: .4%;
+
+
+}
+.blog-left ul{}
+.blog-left ul li{
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    margin: 20px 0;
+    padding: 0 2px;
+}
+
+
+/* footersection */
+
+
+.footer{
+    background: rgba(102, 92, 92, 0.932);
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.footer h5{
+float: left;
+    
+}
+
+
+.footer-icon{
+    float: right;
+}
+.footer-icon samp{}
+.footer-icon samp a{}
+.footer-icon samp a i{
+     color: white;
+     font-size: 20px;
+     
+}
